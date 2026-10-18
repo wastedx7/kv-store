@@ -1,0 +1,83 @@
+
+# Compiled object files
+*.o
+*.obj
+
+# Compiled libraries
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Executables and compiled binaries
+*.exe
+*.out
+*.bin
+
+# Debug symbols and core dumps
+*.pdb
+*.ilk
+*.dSYM/
+core
+core.*
+
+# Build directories
+build/
+bin/
+dist/
+cmake-build-*/
+Debug/
+Release/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.cmake
+compile_commands.json
+
+# Autotools generated files
+autom4te.cache/
+config.log
+config.status
+libtool
+Makefile.in
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test outputs and coverage
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# Valgrind output
+valgrind.log
+
+# Runtime data and persistence files
+*.rdb
+*.aof
+*.dump
+*.pid
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
